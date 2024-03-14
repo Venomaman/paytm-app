@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb+srv://todo:kz5QsP1v0HMzZ0rn@cluster0.ikoeg5a.mongodb.net/paytm")
+mongoose.connect("ur mongodb string")
 
 const userSchema = mongoose.Schema({
     username:String,
